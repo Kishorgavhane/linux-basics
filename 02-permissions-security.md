@@ -32,10 +32,18 @@ And three permissions:
 When you run the command:
 
 ```bash
-ls -l
-
-```text
+`ls -l`
+Output
 -rw-r--r-- 1 devops devops app.conf
+Breakdown
+-rw-r--r-- 1 devops devops app.conf
+│ │  │  │  │      │      └── file-name
+│ │  │  │  │      └───────── group
+│ │  │  │  └──────────────── owner
+│ │  │  └─────────────────── hard-links
+│ │  └────────────────────── permissions
+└─────────────────────────── file-type
+
 
 
 
