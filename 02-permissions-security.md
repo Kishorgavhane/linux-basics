@@ -32,7 +32,8 @@ And three permissions:
 When you run:
 ```bash
 ls -l
-##You see something like:
+---
+You see something like:
 ```bash
 -rw-r--r-- 1 devops devops app.conf
 
