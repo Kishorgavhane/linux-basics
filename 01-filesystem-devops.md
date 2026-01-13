@@ -172,10 +172,42 @@ This directory is **always backed up** in production systems.
 
 ---
 
-## How a DevOps Engineer Debugs a Service (Real Flow)
+---
 
-Example: Nginx is not working.
+## Important Filesystem Commands (DevOps Quick Recall)
 
-1. Check binary exists:
+These are the commands you will actually use on servers.
+Read them every time you revise this file.
+
+### Navigation & Awareness
 ```bash
-which nginx
+pwd        # current-location
+ls         # list
+ls -l      # details
+ls -lh     # human-size
+cd /       # root
+cd ~       # home
+tree /etc          # config-structure
+tree /var/log      # log-structure
+df -h              # disk-space
+du -sh /var/*      # folder-usage
+du -sh *           # local-usage
+mkdir app           # create-folder
+touch app.conf      # create-file
+cp file1 file2      # copy
+mv old new          # move/rename
+rm file             # delete-file
+rm -r dir           # delete-folder
+cat file.conf       # view
+less file.conf      # scroll-view
+tail log.txt        # last-lines
+tail -f app.log     # live-logs
+which nginx         # binary-location
+cat /etc/nginx/nginx.conf   # config-check
+ls -l /var/www/html          # permission-check
+tail -f /var/log/nginx/error.log  # error-debug
+whoami              # current-user
+id                  # user-info
+uname -a            # system-info
+hostname            # server-name
+
