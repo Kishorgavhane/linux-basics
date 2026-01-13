@@ -34,9 +34,9 @@ When you run the command:
 ```bash
 ls -l
 
-
 ```text
 -rw-r--r-- 1 devops devops app.conf
+
 
 
 
