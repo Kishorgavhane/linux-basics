@@ -174,10 +174,7 @@ This directory is **always backed up** in production systems.
 
 ---
 
-## Important Filesystem Commands (DevOps Quick Recall)
-
-These are the commands you will actually use on servers.
-Read them every time you revise this file.
+## Important Filesystem Commands
 
 ### Navigation & Awareness
 ```bash
