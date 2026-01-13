@@ -235,6 +235,3 @@ A clean and beginner-friendly Linux command reference for daily use, interviews,
 
 ### 📌 Author
 **Kishor Gawhane**  
-Linux • Cloud • DevOps  
-
-⭐ If you find this useful, give the repo a star!
