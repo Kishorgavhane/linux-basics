@@ -30,10 +30,12 @@ And three permissions:
 - `x` → execute
 
 When you run:
+**Command:**
 ```bash
 ls -l
----
-You see something like:
-```bash
--rw-r--r-- 1 devops devops app.conf
+
+
+Output: -rw-r--r-- 1 devops devops app.conf
+
+
 
