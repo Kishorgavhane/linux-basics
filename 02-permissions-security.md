@@ -29,10 +29,11 @@ And three permissions:
 - `w` → write
 - `x` → execute
 
-When you run:
-**Command:**
+When you run the command:
+
 ```bash
 ls -l
+
 
 ```text
 -rw-r--r-- 1 devops devops app.conf
