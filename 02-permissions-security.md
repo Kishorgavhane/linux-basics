@@ -33,8 +33,12 @@ When you run the command:
 
 ```bash
 `ls -l`
+
+---
+
 Output
 -rw-r--r-- 1 devops devops app.conf
+
 Breakdown
 -rw-r--r-- 1 devops devops app.conf
 │ │  │  │  │      │      └── file-name
