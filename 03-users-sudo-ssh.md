@@ -55,7 +55,7 @@ Result:
 - SSH access problems later
 
 Rule:
-- `Use root only when required, not by habit.`
+- Use root only when required, not by habit.
 
 ## Creating a User (Correct Way)
 
