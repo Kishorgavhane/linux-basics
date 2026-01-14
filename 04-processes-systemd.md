@@ -196,7 +196,7 @@ Killing the child may not help. Parent might restart it again.
 
 Real Incident Pattern
 Symptom: 
-- “Server slow, app unresponsive”
+> “Server slow, app unresponsive”
 
 Checklist:
 - `uptime`
